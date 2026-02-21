@@ -1,0 +1,245 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PT Sans", sans-serif;
+}
+header{
+    margin: 0 auto;
+    width: 1366px;
+    height: 170px;
+    background-color: #67958e;
+    background-image: url(../img/portada.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+}
+header img{
+    padding-left: 20px;
+    height: 95%;
+}
+nav{
+    margin: 0 auto;
+    width: 1366px;
+    height: 70px;
+    background-color: #04253a;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    font-family: "Libre Baskerville", serif;
+
+}
+nav a{
+    color:#e1ddbf;
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: .5s;
+}
+nav a:hover{
+    background-color: #67958e98;
+    transform: scale(1.3);
+}
+main{
+    margin: 0 auto;
+    width: 1366px;
+    height: 2800px;
+    background-color: #67958e;
+    background-image: url(../img/fondocompl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+}
+.inicio{
+    width: 1300;
+    height: 430px;
+}
+.invitados{
+    width: 1300px;
+    height: 430px;
+    /*background-color: #b70926;*/
+    margin-left: 33px;
+    margin-top: 80px auto;
+    overflow: hidden;
+    
+}
+.foto{
+    width: 300px;
+    height: 370px;
+   /* background-color: rgb(18, 19, 20);*/
+    float: left;
+    margin-left: 33px;
+    
+}
+.centrado{
+    width: 450px;
+    float: left;
+    margin-left: 33px;
+}
+.titulo{
+    width: 450px;
+    height: 78px;
+    background-color: #e1ddbfd5;
+    float: left;
+    margin-left: 33px;
+    margin-bottom: 10px;
+    font-family: "Bevan", serif;
+    text-align: center;
+}
+.infoinicio{
+    width: 450px;
+    height: 292px;
+    background-color:#e1ddbfd5;
+    float: left;
+    margin: 33px;
+    color: #10286a;
+    padding: 25px;
+}
+.info{
+    width: 450px;
+    height: 292px;
+    background-color: #e1ddbfd5;
+    float: left;
+    margin-left: 33px;
+    padding: 30px;
+    color:  #10286a;
+}
+.info a{
+    color: #007a6c;
+    text-decoration: none;
+}
+
+h2{
+    color:  #031b5b;
+    font-size: 1.3rem; 
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+   
+   
+}
+.mapa{
+    float: left;
+    margin-top: 30px;
+}
+.video{
+   float: left;
+   width: 250px;
+   margin-left: 33px;
+   margin-top: 80px;
+
+}
+.carrusel {
+    width: 300px;
+    height: 300px;
+    overflow-x: auto; 
+    overflow-y: hidden;
+    white-space: nowrap;
+    border: 2px solid #02373f8b;
+    border-radius: 10px;
+    margin: 40px auto;
+    background-color: #e1ddbf;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;  
+    scrollbar-color: rgba(0,0,0,0.2) transparent;
+}
+.carrusel img {
+    width: 300px;          
+    height: 300px;
+    object-fit: cover;     
+    display: inline-block;
+}
+
+
+.compra{
+    width: 1300px;
+    margin: 80px auto;
+    margin: 33px;
+    display: flex;
+    align-items: flex-end;
+    
+}
+.infocompra{
+    width: 420px;
+    height: 540px;
+    background-color: #e1ddbfd5;
+    margin-left: 33px;
+    text-align: center;
+    padding: 30px;
+    color:  #10286a;
+}
+.infocompra a{
+   color: #007a6c;
+   text-decoration: none;
+}
+.secompra{
+    width: 325px;
+    margin-top: 33px;
+    margin-left: 33px;
+    background-color:  #e4ecec  ;
+    
+}
+.comentarios{
+    width: 390px;
+    height: 430px;
+    padding: 20px;
+    margin-left: 33px;
+    background-color: #e1ddbfd5;
+    color: #04253a;
+    
+}
+.comentario{
+    color: #04253a;
+    text-align: left;
+}
+.comentario img:first-child {
+    border-radius: 50%;
+}
+.nuevocomentario input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgb(26, 28, 51);
+    background: transparent;
+}
+.nuevocomentario button{
+    background-color:#979ba0a9 ;
+    color: #04253a;
+    font-family: "Libre Baskerville", serif;
+    border: none; 
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 8px 18px; 
+}
+.nuevocomentario button:hover {
+    background-color: #45726e9e;   
+}
+
+footer{
+    margin: 0 auto;
+    padding: 20px;
+    width:1366px ;
+    height: 140px;
+    background-color:#04253a;
+
+    
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    gap: 25px;
+    
+
+}
+footer a{
+    color:#e1ddbf;
+    text-align: center;
+}
+footer a:hover{
+    text-decoration:underline;
+    font-size: large;
+}
+footer img{
+    height: 90%;
+}
