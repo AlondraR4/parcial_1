@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "PT Sans", sans-serif;
+    
 }
 header{
     margin: 0 auto;
@@ -236,12 +237,11 @@ footer{
 footer a{
     color:#e1ddbf;
     text-align: center;
+    text-decoration: overline;
     
 }
 footer a:hover{
-    text-decoration:underline;
     font-size: large;
-    
 }
 footer img{
     height: 90%;
