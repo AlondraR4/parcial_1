@@ -38,6 +38,7 @@ nav a{
     text-decoration: none;
     padding: 15px 20px;
     transition: .5s;
+    font-family: "Libre Baskerville", serif;
 }
 nav a:hover{
     background-color: #67958e98;
@@ -235,10 +236,12 @@ footer{
 footer a{
     color:#e1ddbf;
     text-align: center;
+    
 }
 footer a:hover{
     text-decoration:underline;
     font-size: large;
+    
 }
 footer img{
     height: 90%;
